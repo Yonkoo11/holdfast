@@ -80,6 +80,7 @@
       <a href="#evidence">Evidence</a>
       <a href="#response">Private response</a>
       <a href="#outcome">Outcome</a>
+      <a href="./holdfast-demo.mp4" target="_blank" rel="noreferrer">90s demo</a>
     </nav>
 
     <div class="network">
