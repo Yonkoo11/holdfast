@@ -1,0 +1,13 @@
+A protocol pause key should not live with one person. Holdfast makes containment a private two-person decision.
+
+A detector watches one Solana vault and reconstructs the prior balance. This planted withdrawal is twenty-five percent. The policy triggers above twenty. The detector can open an incident. It cannot pause the vault.
+
+The incident moves into a permissioned MagicBlock Ephemeral Rollup. Individual approvals stay private. One responder is never enough. Two distinct responders must approve the same stored action hash.
+
+Quorum does not authorize an arbitrary runbook. It commits one expiring pause action against one separate vault program. Magic Actions carry that decision back to Solana.
+
+A commit is not containment. If the pause fails, Holdfast keeps the receipt pending and says unpaused. Success requires an executed receipt and the matching paused vault.
+
+Judges can verify the finished run without a wallet. The browser reads both deployed accounts directly from MagicBlock Devnet. Their owners, layouts, status, and incident identifiers must all agree.
+
+Holdfast turns protocol response into a constrained, inspectable decision. Two people can stop the test drain. One person cannot.

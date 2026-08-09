@@ -1,0 +1,30 @@
+node_modules/
+target/
+dist/
+.DS_Store
+*.log
+
+# Generated demo renders stay local until explicitly uploaded.
+video/out/
+
+# Local detector runtime state.
+.holdfast-detector/
+
+# Internal build-process artifacts are not part of the judge-facing repository.
+.claudeignore
+.demo-rehearsal-state.json
+.demo-video-state.json
+.ralph/
+ai/
+submission/
+proposals/
+test-results/
+CLAUDE.md
+CODE_REVIEW.md
+DEMO-FOOTGUNS.md
+DEMO-SCRIPT.md
+Goal.md
+PULSE.md
+plan.md
+prompt.md
+.trufflehog-exclude

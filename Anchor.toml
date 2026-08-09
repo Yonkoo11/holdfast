@@ -1,0 +1,19 @@
+[toolchain]
+anchor_version = "0.32.1"
+
+[features]
+resolution = true
+skip-lint = false
+
+[programs.localnet]
+holdfast = "EjU7sFMStj15r1NVrzgVbRJBdjUTUGbgyzHvFzEaaZuz"
+test_vault = "H9pEwKaL9JwCjYj1ZgmVbZ6AAHHRyXMd4HZfSi1GZaBy"
+
+[programs.devnet]
+holdfast = "EjU7sFMStj15r1NVrzgVbRJBdjUTUGbgyzHvFzEaaZuz"
+test_vault = "H9pEwKaL9JwCjYj1ZgmVbZ6AAHHRyXMd4HZfSi1GZaBy"
+
+[provider]
+cluster = "localnet"
+wallet = "~/.config/solana/id.json"
+

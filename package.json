@@ -1,0 +1,56 @@
+{
+  "name": "holdfast",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Private quorum circuit breaker for Solana protocols",
+  "scripts": {
+    "dev": "vite --config vite.config.ts",
+    "build": "vite build --config vite.config.ts",
+    "build:programs": "anchor build",
+    "check:rust": "cargo check --workspace",
+    "test:rust": "cargo test --workspace --lib",
+    "test:vault": "cargo test -p test-vault --lib",
+    "test:detector": "tsx --test tests/detector.test.ts",
+    "test:operator-model": "tsx --test tests/operator-read-model.test.ts",
+    "test:e2e": "node scripts/e2e.mjs",
+    "test:quorum": "cargo test -p holdfast quorum_ --lib",
+    "test:approval-abuse": "cargo test -p holdfast approval_abuse_ --lib",
+    "test:containment": "cargo test -p holdfast containment_ --lib",
+    "test:action-failures": "cargo test -p holdfast action_failure_ --lib",
+    "detector": "tsx services/detector/run.ts",
+    "test:spike:privacy": "tsx tests/privacy-spike.ts",
+    "test:spike:action": "tsx tests/action-spike.ts",
+    "test:spike:action-failure": "tsx tests/action-failure-spike.ts",
+    "video:compositions": "remotion compositions video/src/index.tsx --public-dir=video/public",
+    "video:still": "remotion still video/src/index.tsx Main video/out/preview.png --frame=1980 --public-dir=video/public",
+    "video:render": "remotion render video/src/index.tsx Main video/out/holdfast-demo.mp4 --public-dir=video/public --codec=h264 --audio-codec=aac",
+    "video:render:social": "remotion render video/src/index.tsx Social video/out/holdfast-social.mp4 --public-dir=video/public --codec=h264",
+    "test": "npm run check:rust && npm run test:rust && npm run test:detector && npm run test:operator-model"
+  },
+  "dependencies": {
+    "@coral-xyz/anchor": "0.32.1",
+    "@magicblock-labs/ephemeral-rollups-sdk": "0.14.3",
+    "@solana/web3.js": "1.98.4",
+    "@sveltejs/vite-plugin-svelte": "7.3.0",
+    "@types/bn.js": "^5.2.0",
+    "bn.js": "^5.2.5",
+    "svelte": "5.56.8",
+    "tweetnacl": "1.0.3",
+    "vite": "8.2.1"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.62.1",
+    "@remotion/cli": "^4.0.507",
+    "@remotion/google-fonts": "^4.0.507",
+    "@types/node": "24.3.0",
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8",
+    "remotion": "^4.0.507",
+    "tsx": "4.20.5",
+    "typescript": "5.9.2"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}
