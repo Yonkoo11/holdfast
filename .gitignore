@@ -6,6 +6,7 @@ dist/
 
 # Generated demo renders stay local until explicitly uploaded.
 video/out/
+video/narration.json
 
 # Local detector runtime state.
 .holdfast-detector/
