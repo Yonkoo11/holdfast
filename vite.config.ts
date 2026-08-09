@@ -4,6 +4,7 @@ import { resolve } from "node:path";
 
 export default defineConfig({
   root: resolve(import.meta.dirname, "app"),
+  base: "./",
   publicDir: resolve(import.meta.dirname, "app/public"),
   plugins: [svelte({ configFile: resolve(import.meta.dirname, "svelte.config.js") })],
   build: {

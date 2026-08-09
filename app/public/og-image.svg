@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#090b0b"/>
+  <path d="M0 0H1200M0 70H1200M0 140H1200M0 210H1200M0 280H1200M0 350H1200M0 420H1200M0 490H1200M0 560H1200M70 0V630M140 0V630M210 0V630M280 0V630M350 0V630M420 0V630M490 0V630M560 0V630M630 0V630M700 0V630M770 0V630M840 0V630M910 0V630M980 0V630M1050 0V630M1120 0V630M1190 0V630" stroke="#2b3433" stroke-opacity=".32"/>
+  <g transform="translate(80 72)" fill="none" stroke="#f4a641" stroke-width="13" stroke-linecap="square">
+    <path d="M18 0v38h34V0M18 70v38h34V70M0 54h70"/>
+  </g>
+  <text x="182" y="150" fill="#e8e4d8" font-family="Inter,Arial,sans-serif" font-size="54" font-weight="800">HOLDFAST</text>
+  <text x="80" y="330" fill="#e8e4d8" font-family="Inter,Arial,sans-serif" font-size="88" font-weight="900">TWO KEYS</text>
+  <text x="80" y="425" fill="#f4a641" font-family="Inter,Arial,sans-serif" font-size="88" font-weight="900">MUST AGREE.</text>
+  <text x="84" y="505" fill="#9da6a2" font-family="Inter,Arial,sans-serif" font-size="31">Private quorum containment on MagicBlock + Solana.</text>
+  <rect x="84" y="548" width="226" height="44" rx="3" fill="none" stroke="#70c79a"/>
+  <text x="105" y="578" fill="#70c79a" font-family="monospace" font-size="20" font-weight="700">DEVNET PROVEN</text>
+</svg>
