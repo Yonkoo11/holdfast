@@ -8,6 +8,10 @@ a Magic Action that pauses the separate vault program.
 
 The detector cannot pause the vault. One responder cannot pause it either.
 
+- [Open the live incident board](https://yonkoo11.github.io/holdfast/)
+- [Watch the 90-second demo](https://yonkoo11.github.io/holdfast/holdfast-demo.mp4)
+- [Inspect the public repository](https://github.com/Yonkoo11/holdfast)
+
 ![Holdfast response room](docs/screenshots/01-response-room.png)
 
 ## Quick start
